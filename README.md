@@ -72,6 +72,7 @@ sudo apt upgrade
 sudo reboot
 sudo apt-get install python3-pip
 sudo apt install python3.12-venv
+sudo apt-get install ffmpeg
 ```
 
 ## 5. Копируем исходные файлы

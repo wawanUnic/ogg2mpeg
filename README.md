@@ -88,20 +88,35 @@ find ogg2mpeg/ -type f -exec chmod 755 {} \;
 Работаем от name
 
 Версии добавленных пакетов:
+
 annotated-types   0.7.0
+
 anyio             4.8.0
+
 click             8.1.8
+
 fastapi           0.115.7
+
 h11               0.14.0
+
 idna              3.10
+
 pip               24.0
+
 pydantic          2.10.6
+
 pydantic_core     2.27.2
+
 pydub             0.25.1
+
 python-multipart  0.0.20
+
 sniffio           1.3.1
+
 starlette         0.45.3
+
 typing_extensions 4.12.2
+
 uvicorn           0.34.0
 
 ```

@@ -59,7 +59,6 @@ Connection - keepAlive 15 sec
 
 nano /etc/ssh/sshd_config:
 ```
-[Port 46 (*2+2)]
 PubkeyAuthentication yes
 PasswordAuthentication no
 ```
@@ -78,13 +77,14 @@ sudo apt install python3.12-venv
 ## 5. Копируем исходные файлы
 Работаем от name
 
-Создаем папку ogg2mpeg. Копируем в неё исходный файл
+Создаем папку ogg2mpeg. Копируем в неё исходные файлы
+
 Даем права на исполнение (!!! Дать папке /home/name права на R+X other !!!):
 ```
 find ogg2mpeg/ -type f -exec chmod 755 {} \;
 ```
 
-## 6. Создаем виртуальные окружения
+## 6. Создаем виртуальное окружение
 Работаем от name
 
 Версии добавленных пакетов:

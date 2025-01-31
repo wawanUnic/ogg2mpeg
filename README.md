@@ -119,7 +119,7 @@ python main.py -- Эту команду не запускать! Это толь
 ## 7. Добавляем сервисы в systemD
 Работаем от name
 
-sudo nano /etc/systemd/system/ogg2mpeg.service:
+sudo nano /etc/systemd/system/ogg2mpeg.service (python3.12?):
 ```
 [Unit]
 Description=ogg2mpeg
